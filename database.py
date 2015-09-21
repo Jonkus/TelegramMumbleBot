@@ -4,7 +4,7 @@ import MySQLdb as mysql
 
 dhost = 'localhost'
 duser = 's4y'
-dpwd = 'ginaph9maureiCohr9a'
+dpwd = open('db.pwd', 'r').readline()
 dname = 's4y_mumblebot'
 db = mysql.connect(dhost, duser, dpwd, dname)
 
