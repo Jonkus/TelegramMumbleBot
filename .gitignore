@@ -1,0 +1,9 @@
+*.pyc
+*.so
+*.swp
+api.key
+pymumble*
+lib*
+google*
+six*
+
